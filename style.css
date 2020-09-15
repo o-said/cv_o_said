@@ -1,0 +1,220 @@
+body
+{
+	background-color: grey;
+}
+
+*
+{
+margin:0;
+padding:0;
+box-sizing:border-box;
+list-style-type: none;
+font-family: "Roboto",sans-serif;
+}	
+
+
+/*RESUME*/
+.resume
+{
+	margin:5em auto;
+	display:flex;
+	width:1190px;
+}
+
+/*RESUME_LEFT*/
+.resume_left
+{
+	width:380px;
+	background-color: #fec907;
+}
+
+.resume_left h1
+
+{
+	text-align: center;
+	margin-bottom: 1.25em;
+	font-size: 30px;
+	padding: 0.6em 0.7em;
+	background-color:#404040;
+	text-transform: uppercase;
+	color:#fec907;
+}
+
+/*PICTURE*/
+
+.picture
+{
+    background-color: #fec907;
+	padding-top:0.7em;
+	text-align: center;
+}
+
+/*CONTACT*/
+
+
+ .resume_left ul
+{
+	margin:1.875em 0;
+	
+	font-size: 20px;
+}
+.resume_left li
+{
+	margin:0 2.2em;
+	padding: 0.7em;
+	text-align: left;
+}
+
+.resume_left a:hover
+{
+	color:white;
+}
+
+/*ABOUT ME*/
+
+
+.about
+{
+	height:780px;
+	margin-bottom: 0.625em;
+}
+
+
+.resume_left p
+{
+	font-family: "Roboto";
+	margin: 2.5em 2.813em;
+	font-size: 20px;
+}
+
+
+/*HOBBIES*/
+
+.hobbies
+{
+	display: flex;
+	justify-content: space-around;
+}
+ .resume_left .fas,.fa-running , .fas,.fa-dumbbell
+{
+	color:#000;
+	font-size: 60px;
+}
+.fas,.fa-running:hover , .fa,.fa-dumbbell:hover
+{
+	color:white;
+}
+
+/*RESUME RIGHT*/
+
+/*GENERAL SETTINGS*/
+
+.resume_right
+{
+	padding-left:60px;
+	padding-bottom: 40px;
+	width:810px;
+	background-color: #fff;
+}
+
+.trait2
+{
+   background-color: #fec907;
+   height: 2pt;
+   margin-right: 3.125em;
+   padding-right: 3.125em;
+}
+
+.trait_h2
+{
+	background-color: #fec907;
+	height: 2pt;
+	width:80px;
+}
+
+.icone
+{
+	width:14em;
+	height:50px;
+	font-size: 20px;
+	display: inline-flex;
+	margin-left: -0.625em;
+}
+
+.section span
+{
+	color:#fec907;
+	margin:0  0.938em;
+}
+
+.resume_right h1
+{
+   font-family:'Open Sans',sans-serif ;
+   margin-top: 1.2em;
+   font-size: 75px;
+   font-weight:lighter;
+}
+.resume_right h2
+{
+	font-size:30px;
+}
+
+.resume_right h3
+{
+  text-transform: uppercase;
+  font-size:25px;
+  padding-bottom: 0.625em;
+  padding-top: 3em;
+}
+
+
+h4
+{
+	font-size: 20px;
+	margin-bottom: 0.938em;
+	margin-top: 2.188em;
+}
+
+.resume_right p
+{
+	font-family: "Roboto";
+	font-size: 20px;
+	margin-left: 1.875em;
+	width:440px;
+}
+
+.chapter
+{
+	display: flex;
+	flex-direction: column;
+}
+.fa,.fa-graduation-cap , .fa,.fa-briefcase , .fa,.fa-pencil-alt ,.resume_right h1 span
+{
+	color:#fec907;
+}
+
+.section
+{
+	 margin-top: 1.875em;
+	 display:flex;
+}
+
+strong
+{
+	font-size: 20px;
+}
+.resume_right p span
+{
+    padding:1.25em 0;
+}
+
+.resume_right ul
+{
+	font-size: 20px;
+}
+
+
+.recommandation li 
+{
+	margin-bottom: 10px0.625em;
+}
