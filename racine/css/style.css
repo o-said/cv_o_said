@@ -111,7 +111,7 @@ font-family: "Roboto",sans-serif;
 
 .resume_right
 {
-	padding-left:60px;
+	padding:0 60px;
 	padding-bottom: 40px;
 	width:810px;
 	background-color: #fff;
@@ -121,8 +121,6 @@ font-family: "Roboto",sans-serif;
 {
    background-color: #fec907;
    height: 2pt;
-   margin-right: 3.125em;
-   padding-right: 3.125em;
 }
 
 .trait_h2
@@ -280,7 +278,7 @@ strong
 	.chapter
 	{
 		text-align: center;
-		margin-bottom:1em;
+		margin:1em 0;
 	}
 	.section
 	{
