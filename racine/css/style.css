@@ -213,12 +213,12 @@ strong
 
 .recommandation li 
 {
-	margin-bottom: 10px0.625em;
+	margin-bottom:  0.625em;
 }
 
 /*-------------------------------------------------------------------------------------------------------------------*/
 
-@media screen and (max-width: 900px)
+@media screen and (max-width: 1080px)
 {
 	.resume
 	{
