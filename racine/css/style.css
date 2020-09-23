@@ -234,6 +234,10 @@ strong
 	{
 		height:auto;
 	}
+	.resume_left li
+	{
+		text-align:center;
+	}
 	.loisirs
 	{
 		padding-bottom: 0.625em;
