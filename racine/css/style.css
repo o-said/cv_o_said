@@ -28,7 +28,7 @@ font-family: "Roboto",sans-serif;
 	background-color: #fec907;
 }
 
-.resume_left h1
+.resume_left h2
 
 {
 	text-align: center;
@@ -48,6 +48,11 @@ font-family: "Roboto",sans-serif;
 	padding-top:0.7em;
 	text-align: center;
 }
+img{
+	border-radius:150%;
+	border:solid 4px #daaf12;
+}
+
 
 /*CONTACT*/
 
@@ -144,14 +149,14 @@ font-family: "Roboto",sans-serif;
 	margin:0  0.938em;
 }
 
-.resume_right h1
+.resume_right h2
 {
    font-family:'Open Sans',sans-serif ;
    margin-top: 1.2em;
    font-size: 75px;
    font-weight:lighter;
 }
-.resume_right h2
+.resume_right h1
 {
 	font-size:30px;
 }
@@ -248,7 +253,7 @@ strong
 		text-align:center;
 	}
 
-	.resume_right h1
+	.resume_right h2
 	{
 		margin-top:0;
 		font-size:3em;
